@@ -109,7 +109,7 @@ class NewClass {
         System.out.println("\t\t\t\t" + CYAN + "" + userName + "'s: " + GREEN + " -hp " + userHealth + "" + WHITE);
         System.out.println("\t\t\t\t" + CYAN + "" + randomEnemy + "'s: " + GREEN + "-hp " + enemyHealth + "" + WHITE);
         System.out
-                .println(RED + "\t\t\t\t\t\t\tMOVES: (c) to COBRA CLUTCH | (f) to Flying kick | (p) to Punch" + WHITE);
+                .println(RED + "\t\t\t\t\t\t\tMOVES: (c) to COBRA CLUTCH | (f) to Flying kick | (p) to Punch!" + WHITE);
 
         if (userHealth <= 0) {
             System.out.println(RED + "\n\t\t\t\t->> " + randomEnemy + " wins the match by KO! <<-" + WHITE);
