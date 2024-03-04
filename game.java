@@ -14,7 +14,7 @@ class NewClass {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String[] enemies = { "Superman", "Spiderman", "Doodieman", "ArslanAsh", "Godzilla" };
+        String[] enemies = { "Superman", "Spoiderman", "Doodieman", "ArslanAsh", "Godzilla" };
         String[] moves = { "c", "f", "p" };
         Random rand = new Random();
         int index = rand.nextInt(enemies.length);
